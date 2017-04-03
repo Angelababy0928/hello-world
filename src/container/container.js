@@ -600,7 +600,7 @@ export default class Container extends Component{
     )
 }
 
-    scroll(){//按需加载
+    scroll(){//按需加载  闫扎扎
         if(this.refs.box.clientHeight+this.refs.box.scrollTop==this.refs.box.scrollHeight){
             this.setState({
                 add:this.state.add+1//重新赋值加1
